@@ -1,0 +1,29 @@
+# erlang snippet
+
+snippet li "log"
+lager:info("test ~p", [{${1}}]),
+endsnippet
+
+snippet le
+lager:error("test ~p", [{${1}}]),
+endsnippet
+
+snippet ld
+lager:debug("test ~p", [{${1}}]),
+endsnippet
+
+
+snippet head
+%%%-------------------------------------------------------------------
+%%% @author wanghongyan05
+%%% @copyright (C) 2017, <COMPANY>
+%%% @doc
+%%%
+%%% @end
+%%% Created : ${1}
+%%%-------------------------------------------------------------------
+endsnippet
+
+snippet ex
+-export([${1}/${2}]).
+endsnippet
